@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: o11y
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhtap-o11y-tenant/o11y/o11y@sha256:ed8a9c1c089236a91a35a04b35e70d8f1ccf2193831ae83ec8ec143bd6fd4ba2
         imagePullPolicy: Always
         name: container-image
         ports:
