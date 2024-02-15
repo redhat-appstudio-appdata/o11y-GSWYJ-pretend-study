@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: o11y
     app.kubernetes.io/part-of: o11y
-  name: o11ytg5a
+  name: o11yonzf
 spec:
   port:
     targetPort: 8090
